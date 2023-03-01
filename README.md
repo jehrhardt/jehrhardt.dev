@@ -1,11 +1,16 @@
-# fresh project
+# jehrhardt.dev
+Welcome to my personal dev lab. Here you can find some of my projects and experiments.
 
-### Usage
+## Development
+This project is built with [Deno](https://deno.land). You can install it with [Homebrew](https://brew.sh/) on macOS:
 
-Start the project:
-
+```bash
+brew install deno
 ```
+
+### Run locally
+```bash
 deno task start
 ```
 
-This will watch the project directory and restart as necessary.
+Then open [localhost:8000](http://localhost:8000) with your browser to see the result.
