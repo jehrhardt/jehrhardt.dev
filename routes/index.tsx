@@ -1,15 +1,13 @@
 import { Head } from "$fresh/runtime.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { App } from "../components/layouts/app.tsx";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>jehrhardt's dev lab</title>
-        <script defer data-domain="jehrhardt.dev" src="https://plausible.io/js/script.js"></script>
-      </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
+      <App>
         <p class="text-2xl font-bold">Hello world</p>
-      </div>
+      </App>
     </>
   );
 }
